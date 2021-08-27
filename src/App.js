@@ -35,7 +35,7 @@ const Home = () => (
           Si buscas cambiar tu estilo de vida con prácticas saludables para
           cuerpo y mente
           <br></br>
-          Si buscas transformarte
+          <Link to"/react">Si buscas transformarte<Link>
           <br></br>
           Si buscas vivir en paz has llegado a un lugar donde con nuestra
           experiencia de 20 años inspirados en el Ayurveda como medicina y

@@ -19,7 +19,7 @@ import Ventana from "./components/modal";
 import Contacto from "./components/form";
 
 const React_redireccion = () => (
-  <Redirect to="/" />
+  location.href = "/";
 )
 
 const Home = () => (

@@ -1,6 +1,6 @@
 import React from "react";
 import reactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Link, Redirect } from "react-router-dom";
 import "./App.css";
 import { Slideshow, Slide } from "./components/slider";
 import logo from "../src/components/img/logo.png";
@@ -17,6 +17,10 @@ import img3 from "./components/img/3.jpg";
 import img4 from "./components/img/4.jpg";
 import Ventana from "./components/modal";
 import Contacto from "./components/form";
+
+const React_redireccion = () => (
+  <Redirect to="/" />
+)
 
 const Home = () => (
   <div className="all">
@@ -174,6 +178,7 @@ const routes = (
       <Whatsapp />
       <Switch>
         <Route path="/" component={Home} exact={true} />
+        <Route path="/react" component={React_redireccion} />
         <Route path="/clases" component={Clases} />
         <Route path="/cursos" component={Cursos} />
         <Route path="/newsletter" component={Newsletter} />

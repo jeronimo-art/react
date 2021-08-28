@@ -1,0 +1,25 @@
+.form {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+input {
+  margin-top: 10px;
+}
+
+#btn-contact {
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#btn-contact,
+#btn-contact:hover,
+#btn-contact:active,
+#btn-contact:visited,
+#btn-contact:focus {
+  background-color: #4c3e66 !important;
+  border-color: #4c3e66 !important;
+}
